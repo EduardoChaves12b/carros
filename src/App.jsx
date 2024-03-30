@@ -5,9 +5,8 @@ import iconLuxury from "./assets/icon-luxury.svg"
 
 export default function App() {
   return(
-  <main className="min-h-svh bg-offwhitebg py-20 px-6">
-    <section>
-
+  <main className="min-h-svh bg-offwhitebg py-20 px-6 antialiased lg:flex">
+    <section className="lg:flex justify-center items-center">
         <div className="bg-orange p-12 rounded-t-lg">
           <img src={iconSedans} alt="Icone dos carros Sedan" className="mb-7" />
           <h2 className="font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg">Sedans</h2>
@@ -28,7 +27,6 @@ export default function App() {
           <p className="font-lexend mb-7 text-offwhite">Passeie nos melhores carros sem os preços exorbitantes. Desfrute do conforto aprimorado de um aluguel de luxo e chegue com estilo.</p>
           <a className="font-lexend bg-offwhitebg block px-10 py-3 w-fit rounded-3xl text-dark-green" href="https://www.webmotors.com.br/carros-de-luxo" target="_blank">Ver mais</a>
         </div>
-
     </section>
   </main>  
 )
